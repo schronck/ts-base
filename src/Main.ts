@@ -1,1 +1,3 @@
-console.log("Hello TypeScript");
+import logger from "./utils/logger";
+
+logger.verbose("Hello TypeScript");
