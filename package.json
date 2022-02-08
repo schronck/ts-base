@@ -6,11 +6,12 @@
   "scripts": {
     "dev": "ts-node-dev src/Main.ts",
     "build": "tsc",
-    "prod": "node build/Main.js"
+    "prod": "node build/Main.js",
+    "clean": "rm -rf build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
     "dotenv": "^9.0.2",
